@@ -1,5 +1,8 @@
 $blue1 = #3f69ff
 $blue2 = #4e78ff
+$black = #282832
+$yellow = #fbcf65
+$yellow2 = #fbcf66
 
 $global = 'Lato', sans-serif
 
@@ -7,7 +10,7 @@ $global = 'Lato', sans-serif
 	outline none
 
 body
-	color black
+	color $black
 	font-family $global
 	font-size 16px
 	font-weight 400
@@ -22,14 +25,14 @@ h1, h2, h3, h4, h5, h6
 	font-size 2.5rem
 
 a
-	color $blue2
+	color $yellow
 
 a:hover, a:active, a:focus
-	color $blue2
+	color $black
 
 //Navbar
 .bg-navbar
-	background-color $blue1
+	background-color $black
 
 .navbar-dark .navbar-nav .nav-link
 	color white
@@ -47,28 +50,30 @@ a:hover, a:active, a:focus
 	color black
 
 .__btnHeader
-	background-color $blue1
-	border-color $blue1
-	color white
+	background-color $yellow
+	border-color $yellow
+	color $black
+	font-weight 600
 	transition .2s
 	&:active
-		background-color $blue2
-		border-color $blue2
-		color white
+		background-color $yellow2
+		border-color $yellow2
+		color $black
 		transform scale(.9)
 	&:focus
-		background-color $blue2
-		border-color $blue2
-		color white
+		background-color $yellow2
+		border-color $yellow2
+		color $black
 	&:hover
-		background-color $blue2
-		border-color $blue2
-		box-shadow 0 2px 13px 0 $blue1
-		color white
+		background-color $yellow2
+		border-color $yellow2
+		box-shadow 0 2px 13px 0 $yellow2
+		color $black
 
 .__Avatar
 	border-radius 50%
-	filter grayscale(100%)
+	height 120px
+	width auto
 
 .__Social i
 	font-size 1.8rem

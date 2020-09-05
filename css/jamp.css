@@ -4,7 +4,7 @@ button:focus {
   outline: none;
 }
 body {
-  color: #000;
+  color: #282832;
   font-family: 'Lato', sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -24,15 +24,15 @@ h6 {
   font-size: 2.5rem;
 }
 a {
-  color: #4e78ff;
+  color: #fbcf65;
 }
 a:hover,
 a:active,
 a:focus {
-  color: #4e78ff;
+  color: #282832;
 }
 .bg-navbar {
-  background-color: #3f69ff;
+  background-color: #282832;
 }
 .navbar-dark .navbar-nav .nav-link {
   color: #fff;
@@ -51,37 +51,38 @@ a:focus {
   color: #000;
 }
 .__btnHeader {
-  background-color: #3f69ff;
-  border-color: #3f69ff;
-  color: #fff;
+  background-color: #fbcf65;
+  border-color: #fbcf65;
+  color: #282832;
+  font-weight: 600;
   -webkit-transition: 0.2s;
   -o-transition: 0.2s;
   transition: 0.2s;
 }
 .__btnHeader:active {
-  background-color: #4e78ff;
-  border-color: #4e78ff;
-  color: #fff;
+  background-color: #fbcf66;
+  border-color: #fbcf66;
+  color: #282832;
   -webkit-transform: scale(0.9);
       -ms-transform: scale(0.9);
           transform: scale(0.9);
 }
 .__btnHeader:focus {
-  background-color: #4e78ff;
-  border-color: #4e78ff;
-  color: #fff;
+  background-color: #fbcf66;
+  border-color: #fbcf66;
+  color: #282832;
 }
 .__btnHeader:hover {
-  background-color: #4e78ff;
-  border-color: #4e78ff;
-  -webkit-box-shadow: 0 2px 13px 0 #3f69ff;
-          box-shadow: 0 2px 13px 0 #3f69ff;
-  color: #fff;
+  background-color: #fbcf66;
+  border-color: #fbcf66;
+  -webkit-box-shadow: 0 2px 13px 0 #fbcf66;
+          box-shadow: 0 2px 13px 0 #fbcf66;
+  color: #282832;
 }
 .__Avatar {
   border-radius: 50%;
-  -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
+  height: 120px;
+  width: auto;
 }
 .__Social i {
   font-size: 1.8rem;
