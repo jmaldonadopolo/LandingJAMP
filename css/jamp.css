@@ -86,8 +86,6 @@ a:focus {
 }
 .__Avatar {
   border-radius: 50%;
-  height: 120px;
-  width: auto;
 }
 .__Social i {
   font-size: 1.8rem;
