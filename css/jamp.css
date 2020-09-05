@@ -6,7 +6,7 @@ button:focus {
 body {
   color: #282832;
   font-family: 'Lato', sans-serif;
-  font-size: 16px;
+  font-size: 15.2px;
   font-weight: 400;
   text-rendering: optimizeLegibility;
 }
@@ -48,13 +48,16 @@ a:focus {
   background: -o-linear-gradient(left top, #f3f3f4 50%, #fff 50%);
   background: linear-gradient(to right bottom, #f3f3f4 50%, #fff 50%);
   border-radius: 0rem;
-  color: #000;
+  color: #282832;
+}
+.__Header h1 {
+  font-weight: 700;
 }
 .__btnHeader {
   background-color: #fbcf65;
   border-color: #fbcf65;
   color: #282832;
-  font-weight: 600;
+  font-weight: 700;
   -webkit-transition: 0.2s;
   -o-transition: 0.2s;
   transition: 0.2s;
@@ -70,6 +73,8 @@ a:focus {
 .__btnHeader:focus {
   background-color: #fbcf66;
   border-color: #fbcf66;
+  -webkit-box-shadow: none;
+          box-shadow: none;
   color: #282832;
 }
 .__btnHeader:hover {

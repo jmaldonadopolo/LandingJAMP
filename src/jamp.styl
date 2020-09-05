@@ -12,7 +12,7 @@ $global = 'Lato', sans-serif
 body
 	color $black
 	font-family $global
-	font-size 16px
+	font-size 15.2px
 	font-weight 400
 	text-rendering optimizeLegibility
     -webkit-font-smoothing antialiased
@@ -47,13 +47,15 @@ a:hover, a:active, a:focus
 .__Header
 	background linear-gradient(to right bottom,#f3f3f4 50%,#fff 50%)
 	border-radius 0rem
-	color black
+	color $black
+	& h1
+		font-weight 700
 
 .__btnHeader
 	background-color $yellow
 	border-color $yellow
 	color $black
-	font-weight 600
+	font-weight 700
 	transition .2s
 	&:active
 		background-color $yellow2
@@ -63,6 +65,7 @@ a:hover, a:active, a:focus
 	&:focus
 		background-color $yellow2
 		border-color $yellow2
+		box-shadow none
 		color $black
 	&:hover
 		background-color $yellow2
