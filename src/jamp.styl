@@ -1,5 +1,6 @@
 $black = #282832
 $yellow = #fad42b
+$yellow2 = #ffd30f
 
 $global = 'Lato', sans-serif
 
@@ -7,6 +8,7 @@ $global = 'Lato', sans-serif
 	outline none
 
 body
+	background-color #111
 	color $black
 	font-family $global
 	font-size 15.2px
@@ -21,11 +23,14 @@ h1, h2, h3, h4, h5, h6
 .display-4
 	font-size 2.5rem
 
+.lead
+	font-weight 400
+
 a
 	color $yellow
 
 a:hover, a:active, a:focus
-	color $black
+	color $yellow2
 
 //Navbar
 .bg-navbar
@@ -33,9 +38,9 @@ a:hover, a:active, a:focus
 
 //Header
 .__Header
-	background linear-gradient(to right bottom,#f3f3f4 50%,#fff 50%)
+	background-color #111
 	border-radius 0rem
-	color $black
+	color white
 	& h1
 		font-weight 700
 
@@ -46,19 +51,19 @@ a:hover, a:active, a:focus
 	font-weight 700
 	transition .2s
 	&:active
-		background-color $yellow
-		border-color $yellow
+		background-color $yellow2
+		border-color $yellow2
 		color $black
 		transform scale(.9)
 	&:focus
-		background-color $yellow
-		border-color $yellow
+		background-color $yellow2
+		border-color $yellow2
 		box-shadow none
 		color $black
 	&:hover
-		background-color $yellow
-		border-color $yellow
-		box-shadow 0 2px 13px 0 $yellow
+		background-color $yellow2
+		border-color $yellow2
+		box-shadow 0 2px 13px 0 $yellow2
 		color $black
 
 .__Avatar

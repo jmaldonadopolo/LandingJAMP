@@ -4,6 +4,7 @@ button:focus {
   outline: none;
 }
 body {
+  background-color: #111;
   color: #282832;
   font-family: 'Lato', sans-serif;
   font-size: 15.2px;
@@ -23,23 +24,24 @@ h6 {
 .display-4 {
   font-size: 2.5rem;
 }
+.lead {
+  font-weight: 400;
+}
 a {
   color: #fad42b;
 }
 a:hover,
 a:active,
 a:focus {
-  color: #282832;
+  color: #ffd30f;
 }
 .bg-navbar {
   background-color: #282832;
 }
 .__Header {
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(50%, #f3f3f4), color-stop(50%, #fff));
-  background: -o-linear-gradient(left top, #f3f3f4 50%, #fff 50%);
-  background: linear-gradient(to right bottom, #f3f3f4 50%, #fff 50%);
+  background-color: #111;
   border-radius: 0rem;
-  color: #282832;
+  color: #fff;
 }
 .__Header h1 {
   font-weight: 700;
@@ -54,25 +56,25 @@ a:focus {
   transition: 0.2s;
 }
 .__btnHeader:active {
-  background-color: #fad42b;
-  border-color: #fad42b;
+  background-color: #ffd30f;
+  border-color: #ffd30f;
   color: #282832;
   -webkit-transform: scale(0.9);
       -ms-transform: scale(0.9);
           transform: scale(0.9);
 }
 .__btnHeader:focus {
-  background-color: #fad42b;
-  border-color: #fad42b;
+  background-color: #ffd30f;
+  border-color: #ffd30f;
   -webkit-box-shadow: none;
           box-shadow: none;
   color: #282832;
 }
 .__btnHeader:hover {
-  background-color: #fad42b;
-  border-color: #fad42b;
-  -webkit-box-shadow: 0 2px 13px 0 #fad42b;
-          box-shadow: 0 2px 13px 0 #fad42b;
+  background-color: #ffd30f;
+  border-color: #ffd30f;
+  -webkit-box-shadow: 0 2px 13px 0 #ffd30f;
+          box-shadow: 0 2px 13px 0 #ffd30f;
   color: #282832;
 }
 .__Avatar {
