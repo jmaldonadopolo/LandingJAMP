@@ -24,7 +24,7 @@ h6 {
   font-size: 2.5rem;
 }
 a {
-  color: #fbcf65;
+  color: #fad42b;
 }
 a:hover,
 a:active,
@@ -33,15 +33,6 @@ a:focus {
 }
 .bg-navbar {
   background-color: #282832;
-}
-.navbar-dark .navbar-nav .nav-link {
-  color: #fff;
-}
-.navbar-dark .navbar-nav .nav-link:hover {
-  color: #fff;
-}
-.navbar-dark .navbar-nav .nav-link:focus {
-  color: #fff;
 }
 .__Header {
   background: -webkit-gradient(linear, left top, right bottom, color-stop(50%, #f3f3f4), color-stop(50%, #fff));
@@ -54,8 +45,8 @@ a:focus {
   font-weight: 700;
 }
 .__btnHeader {
-  background-color: #fbcf65;
-  border-color: #fbcf65;
+  background-color: #fad42b;
+  border-color: #fad42b;
   color: #282832;
   font-weight: 700;
   -webkit-transition: 0.2s;
@@ -63,25 +54,25 @@ a:focus {
   transition: 0.2s;
 }
 .__btnHeader:active {
-  background-color: #fbcf66;
-  border-color: #fbcf66;
+  background-color: #fad42b;
+  border-color: #fad42b;
   color: #282832;
   -webkit-transform: scale(0.9);
       -ms-transform: scale(0.9);
           transform: scale(0.9);
 }
 .__btnHeader:focus {
-  background-color: #fbcf66;
-  border-color: #fbcf66;
+  background-color: #fad42b;
+  border-color: #fad42b;
   -webkit-box-shadow: none;
           box-shadow: none;
   color: #282832;
 }
 .__btnHeader:hover {
-  background-color: #fbcf66;
-  border-color: #fbcf66;
-  -webkit-box-shadow: 0 2px 13px 0 #fbcf66;
-          box-shadow: 0 2px 13px 0 #fbcf66;
+  background-color: #fad42b;
+  border-color: #fad42b;
+  -webkit-box-shadow: 0 2px 13px 0 #fad42b;
+          box-shadow: 0 2px 13px 0 #fad42b;
   color: #282832;
 }
 .__Avatar {
