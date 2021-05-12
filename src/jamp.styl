@@ -8,7 +8,6 @@ $global = 'Lato', sans-serif
 	outline none
 
 body
-	background-color #111
 	color $black
 	font-family $global
 	font-size 15.2px
@@ -29,15 +28,12 @@ a
 a:hover, a:active, a:focus
 	color $yellow2
 
-//Navbar
-.bg-navbar
-	background-color $black
-
 //Header
 .__Header
-	background-color #111
+	background-color white
 	border-radius 0rem
-	color white
+	color $black
+	height 100%
 	& h1
 		font-weight 700
 
@@ -60,11 +56,17 @@ a:hover, a:active, a:focus
 	&:hover
 		background-color $yellow2
 		border-color $yellow2
-		box-shadow 0 2px 13px 0 $yellow2
 		color $black
 
 .__Avatar
 	border-radius 50%
 
 .__Social i
+	color $black
 	font-size 1.8rem
+	&:active
+		color $yellow
+	&:focus
+		color $yellow
+	&:hover
+		color $yellow
